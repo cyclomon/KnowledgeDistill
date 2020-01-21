@@ -7,4 +7,5 @@
  You can change hyperparameter settings & model save directory
  
     python main.py --student --save-dir './checkpoints' --alpha 0.9 --temp 3
-
+## Results
+![Accuracy_teacher](./.png)
