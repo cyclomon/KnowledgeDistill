@@ -9,16 +9,21 @@
     python main.py --student --save-dir './checkpoints' --alpha 0.9 --temp 3
     
 ## Results
-
-![teacheracc](./accuracy_fig.png)
+### Teacher Network
+![teacheracc](./img/accuracy_fig.png)
 
  Teacher Network Accuracy Graph
  Highest Accuracy : 93.08%
  
-![teacherloss](./loss_fig.png)
+![teacherloss](./img/loss_fig.png)
 
  Teacher Network Loss Graph
  
- Student Network without KD VS with KD
+### Student Network without KD VS with KD 
+![KDvsNOKDacc](./img/accuracy_stu_vs_KD.png)
+ accuracy comparison
  Student Network without KD accuracy : 89.07%
  Student Network with KD accuracy : 88.9%
+
+![KDvsNOKDacc](./img/loss_stu_vs_KD.png)
+ loss comparison
