@@ -21,9 +21,11 @@
  
 ### Student Network without KD VS with KD 
 ![KDvsNOKDacc](./img/accuracy_stu_vs_KD.png)
+
  accuracy comparison
  Student Network without KD accuracy : 89.07%
  Student Network with KD accuracy : 88.9%
 
 ![KDvsNOKDacc](./img/loss_stu_vs_KD.png)
+
  loss comparison
